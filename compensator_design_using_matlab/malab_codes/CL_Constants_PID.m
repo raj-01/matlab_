@@ -1,0 +1,13 @@
+Ts=0.0625;        %Sampling Time
+% gr=1; %for motor with no gearbox
+% gr=18.75; %for motor with gear ratio 19:1
+ gr=30;    %for motor with gear ratio 30:1
+%gr=70;    %for motor with gear ratio 50:1
+% gr=70;    %for motor with gear ratio 70:1
+rp=2*pi/(64*gr); %Encoder Resolution
+ref=pi/2;   %Position Reference
+T=60;       %Pulse Period
+D=50;       %Pulse Width
+% K=1.2;      %Proportional Gain
+% Ki=0.75;     %Integral Gain
+% Kd=0.23;     %Derivative Gain
